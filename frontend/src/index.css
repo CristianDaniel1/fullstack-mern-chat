@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: #181e23;
+}
+
+@layer base {
+  * {
+    @apply box-border list-none p-0 m-0 scroll-smooth;
+  }
+  body {
+    @apply text-primary;
+  }
+}
+
+@layer components {
+  .max-container {
+    @apply max-w-7xl mx-auto my-0;
+  }
+}
+
+@layer utilities {
+  .padding-x {
+    @apply px-4 md:px-5 lg:px-6;
+  }
+
+  .padding-y {
+    @apply py-[4.5rem] lg:py-[6.25rem];
+  }
+}
