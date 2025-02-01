@@ -44,7 +44,7 @@ export const Login = () => {
         </form>
         <p>
           Não possui uma conta?{' '}
-          <Link to="/login" className="font-medium text-violet-300 underline">
+          <Link to="/signup" className="font-medium text-violet-300 underline">
             Criar uma conta
           </Link>
         </p>
